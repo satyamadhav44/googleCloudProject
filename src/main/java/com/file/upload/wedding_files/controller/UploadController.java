@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.UUID;
 
 @RestController
-@CrossOrigin(origins = "https://sites.google.com")
+@CrossOrigin(origins = {"https://234044445-atari-embeds.googleusercontent.com", "*"})
 @RequestMapping("/api/upload")
 public class UploadController {
 
